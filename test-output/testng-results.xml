@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104422" started-at="2017-06-03T17:03:19Z" finished-at="2017-06-03T17:05:03Z">
+    <groups>
+    </groups>
+    <test name="on safari" duration-ms="47121" started-at="2017-06-03T17:03:19Z" finished-at="2017-06-03T17:04:06Z">
+      <class name="com.pomproject.TestCase1RegLogIn">
+        <test-method status="PASS" signature="RegisterTest(java.lang.String)[pri:0, instance:com.pomproject.TestCase1RegLogIn@6cdd08eb]" name="RegisterTest" duration-ms="32917" started-at="2017-06-03T22:33:19Z" finished-at="2017-06-03T22:33:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+      </class> <!-- com.pomproject.TestCase1RegLogIn -->
+      <class name="com.pomproject.TestCase2">
+        <test-method status="PASS" signature="flightTest(java.lang.String)[pri:0, instance:com.pomproject.TestCase2@2374b423]" name="flightTest" duration-ms="14172" started-at="2017-06-03T22:33:52Z" finished-at="2017-06-03T22:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+      </class> <!-- com.pomproject.TestCase2 -->
+    </test> <!-- on safari -->
+    <test name="On Chrome" duration-ms="104422" started-at="2017-06-03T17:03:19Z" finished-at="2017-06-03T17:05:03Z">
+      <class name="com.pomproject.TestCase2">
+        <test-method status="PASS" signature="flightTest(java.lang.String)[pri:0, instance:com.pomproject.TestCase2@1703c2db]" name="flightTest" duration-ms="70752" started-at="2017-06-03T22:33:52Z" finished-at="2017-06-03T22:35:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+      </class> <!-- com.pomproject.TestCase2 -->
+      <class name="com.pomproject.TestCase1RegLogIn">
+        <test-method status="PASS" signature="RegisterTest(java.lang.String)[pri:0, instance:com.pomproject.TestCase1RegLogIn@1edd6d83]" name="RegisterTest" duration-ms="33641" started-at="2017-06-03T22:33:19Z" finished-at="2017-06-03T22:33:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+      </class> <!-- com.pomproject.TestCase1RegLogIn -->
+    </test> <!-- On Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
